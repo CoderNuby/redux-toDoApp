@@ -1,4 +1,4 @@
-import { Component, ElementRef, Input, OnInit, ViewChild, AfterViewInit } from '@angular/core';
+import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { ToDo } from '../models/todo.model';
 import { FormControl, Validators } from '@angular/forms';
 import { AppState } from '../../app.reducer';
